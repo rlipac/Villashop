@@ -1,0 +1,153 @@
+
+
+#header-container {
+  background-color: #ff5722 ;
+  color: white;
+
+}
+
+#header-container h1 {
+  font-family: 'Amaranth', sans-serif;
+}
+
+#header-container .login, 
+#header-container .navbar-toggler {
+  color: white;
+}
+
+
+#menu-container {
+ background-color: #ecf0f1; 
+ 
+}
+
+input.form-control:focus {
+  border-color:  #ff3d00  ;
+}
+
+.btn.btn-platzi {
+  background-color: #ff7043;
+  color: white;
+}
+
+.btn.btn-platzi:hover {
+  background-color: #ff3d00  ;
+}
+
+#search-bar {
+    padding: 1em;
+}
+#productosCarrusel img {
+    margin: 1em auto;
+}
+
+#info-container h4 {
+    margin: .5em 0;
+    
+}
+
+
+#info-container img {
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+#footer-container {
+    margin-top: 2em;
+    background-color:#424242 ;
+    color: white;
+    padding: 2em;
+}
+
+#footer-container h4 {
+    font-size: 17px;
+}
+small.form-text.text-muted {
+    color: #ff7043 !important;
+}
+
+#footer-container .nav-link  {
+    font-size: 17px;
+    color: white; 
+}
+
+.btn-primary {
+    background-color: #ff7043 ;
+    border-color: #ff7043  ;
+   
+}
+
+.btn.btn-primary:hover {
+    background-color: #ff3d00   ;
+    border-color: #ff3d00  
+}
+
+.btn.btn-primary:focus {
+    border-color: #ff3d00   ;
+}
+
+
+
+@media(max-width: 768px) {
+    #footer-container [class*="col-"] {
+        margin-bottom: 2em;
+    }
+}
+
+#breadcrumbs-ontainer .breadcrumb {
+    background-color: white;
+    padding-left: 0;
+}
+
+
+
+#breadcrumbs-ontainer .breadcrumb .breadcrumb-item {
+    color: #e65100;     
+}
+
+#breadcrumbs-ontainer .breadcrumb .breadcrumb-item.active {
+    color:  #ffcc80;
+}
+
+#breadcrumbs-ontainer .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+
+
+#productos-container {
+    margin-bottom: 2em;
+}
+
+ #productos-container  .list-group-item-action.active {
+  background-color:  #ff7043 ;
+    border-color:  #ff5722;
+}
+ #productos-container .list-group+.list-group  {
+     
+    margin-top:  1em;
+}
+
+@media (max-width: 768px) {
+
+    .listado-productos {
+      margin-top: 2em;
+    }
+
+    .listado-productos .card-img-top {
+      width: 100%;
+    }
+}
+
+/* paginacionn */
+
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+    border-color: #ff5722;
+    background-color: #ff5722;
+    
+    
+}
+
+.page-link {
+    color: #ff7043;
+}
