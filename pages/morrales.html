@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth:700i" rel="stylesheet">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap-flex.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/font-awesome.min.css">
+    <link rel="icon" href="images/perro1.ico">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <header id="header-container">
+        <div class="container">
+            <div class="row flex-items-xs-middle flex-items-xs-between">
+                <div class="col-xs-3">
+                    <h1>VillaShop</h1>
+                </div>
+                <div class="col-xs-3 text-xs-right ">
+                    <button class="navbar-toggler  pull-xs-right hidden-sm-up" data-toggle="collapse" data-target="#navMenu">
+               &#9776; 
+            </button>
+                    <a class="login hidden-xs-down text-uppercase font-weight-bold " href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- /Header -->
+
+    <!-- Menu -->
+
+    <div id="menu-container">
+
+
+        <nav id="navMenu" class="navbar-toggleable-xs  navbar navbar-light collapse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-0">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item text-xs-center">
+                                <a href="../index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item text-xs-center">
+                                <a href="../catalogo.html" class="nav-link active">Catalogo</a>
+                            </li>
+                            <li class="nav-item text-xs-center">
+                                <a href="#" class="nav-link">Carrito</a>
+                            </li>
+                            <li class="nav-item text-xs-center hidden-sm-up">
+                                <a href="#" class="nav-link">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6 offset-md-2 hidden-xs-down">
+                        <form>
+                            <div class="input-group"><input type="text" class="form-control" placeholder="Puedes buscar aqui!!!">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-platzi" type="button">
+                                       <span class="hidden-sm-down">Buscar</span>
+                                <i class="fa fa-search hidden-md-up"></i>
+
+                                </button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="search-bar" class="container hidden-sm-up">
+            <div class="row">
+                <div class="col-xs">
+                    <form>
+                        <div class="input-group"><input type="text" class="form-control" placeholder="Puedes buscar aqui!!!">
+                            <span class="input-group-btn">
+                                    <button class="btn btn-platzi" type="button">
+                                       <span class="hidden-sm-down">Buscar</span>
+                            <i class="fa fa-search hidden-md-up"></i>
+
+                            </button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- // Menu -->
+
+    <!-- breadcrumbs -->
+
+    <section id="breadcrumbs-ontainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs">
+                    <nav class="breadcrumb">
+
+                        <a href="../catalogo.html" class="breadcrumb-item">Catalogo</a>
+                        <span class="breadcrumb-item active">Todos los productos</span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--// breadcrumbs -->
+
+    <!-- Productos -->
+
+    <section id="productos-container">
+        <div class="container">
+            <div class="row">
+
+                <!-- Filtros -->
+                <div class="col-xs-12 col-md-3">
+                    <div class="list-group filtros-toggle">
+                        <a href="" id="filtrosToggle" class="list-group-item listgroup-item-action navbar-toggler hidden-sm-up" data-target="#filtros-container" data-toggle="collapse">
+                            <h5 class="list-group-item-heading">Filtros <i class="fa fa-chevron-down"></i></h5>
+
+                        </a>
+
+                    </div>
+
+
+                    <div id="filtros-container" class="collapse navbar-toggleable-xs">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action active">
+                                <h5 class="list-group-item-heading">Categoria</h5>
+                            </a>
+                            <a href="morrales.html" class="list-group-item list-group-item-action disabled">
+                         Morrales <span class="tag tag-pill tag-default pull-xs-right">9</span>
+                         </a>
+                            <a href="carteras.html" class="list-group-item list-group-item-action">
+                         Carteras <span class="tag tag-pill tag-default pull-xs-right">9</span>
+                         </a>
+
+                            <a href="peluches.html" class="list-group-item list-group-item-action">
+                         Peluches <span class="tag tag-pill tag-default pull-xs-right">110</span>
+                         </a>
+                            <a href="juguetes.html" class="list-group-item list-group-item-action">
+                         Juguetes <span class="tag tag-pill tag-default pull-xs-right">110</span>
+                         </a>
+
+                            <a href="memorias.html" class="list-group-item list-group-item-action">
+                         Memorias <span class="tag tag-pill tag-default pull-xs-right">300</span>
+                         </a>
+                            <a href="otros.html" class="list-group-item list-group-item-action">
+                         Otros<span class="tag tag-pill tag-default pull-xs-right">20</span>
+                         </a>
+                        </div>
+                        <!--  <div class="list-group">
+                          <a href="#" class="list-group-item list-group-item-action active">
+                             <h5 class="list-group-item-heading">Color</h5>
+                         </a>
+                         <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+                         Ropa <span class="tag tag-pill tag-default pull-xs-right">120</span>
+                         </a> <a href="#" class="list-group-item list-group-item-action list-group-item-danger">
+                         Calzado <span class="tag tag-pill tag-default pull-xs-right">100</span>
+                         </a> <a href="#" class="list-group-item list-group-item-action list-group-item-warning">
+                         Carteras <span class="tag tag-pill tag-default pull-xs-right">60</span>
+                         </a> <a href="#" class="list-group-item list-group-item-action list-group-item-info">
+                         Botas <span class="tag tag-pill tag-default pull-xs-right">190</span>
+                         </a>  
+                        </div> -->
+                        <!-- <div class="list-group">
+                           <a href="#" class="list-group-item list-group-item-action active">
+                             <h5 class="list-group-item-heading">Sexo</h5>
+                         </a>
+                         <a href="#" class="list-group-item list-group-item-action">
+                             <div class="form-check">
+                                 <label for="" class="form-check-label">
+                                     <input type="checkbox" value="f" class="form-check-input"> 
+                                     Masculino
+                                 </label>
+                             </div> 
+                             
+                         </a> <a href="#" class="list-group-item list-group-item-action">
+                             <div class="form-check">
+                                 <label for="" class="form-check-label">
+                                     <input type="checkbox" value="m" class="form-check-input">
+                                     Femenino
+                                 </label>
+                             </div> 
+                         </a> 
+                        </div> -->
+                    </div>
+                </div>
+
+
+                <!-- // Filtros -->
+
+                <!--productos-->
+                <div class="col-xs-12 col-md-9">
+                    <div class="tab-content">
+
+                        <div class="tab-pane active" id="primera" role="tabpanel">
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral2.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral3.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral4.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral6.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral5.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="tab-pane" id="segunda" role="tabpanel">
+
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral7.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral8.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral9.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral4.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane" id="tercera" role="tabpanel">
+
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral3.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral4.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral3.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral4.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral3.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4">
+                                    <img src="../images/producto/morral/morral4.jpg" alt="Producto_1" class="card-img-top img-fluid">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Producto 1</h4>
+                                        <p class="card-text">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--Paginador -->
+
+
+                <!--// Paginador -->
+
+                <!-- // productos-->
+
+            </div>
+            <!--  <div class="row">
+            
+                <div id="paginator-container" class="col-xs text-xs-center">
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> -->
+
+            <!-- nab tabs-->
+            <div class="row">
+                <div id="paginator-container" class="col-xs text-xs-center">
+
+                    <nav class="pagination">
+
+                        <ul class="nav nav-tabs disabled" id="mypagina" role="tablist">
+                            <li class="page-item disabled">
+                                <a class="page-link">
+                                   &laquo;
+                                </a>
+                            </li>
+
+                            <li class="nav-item page-item active">
+                                <a class="nav-link page-link active" data-toggle="tab" href="#primera" role="tab" aria-controls="primera">1</a>
+                            </li>
+                            <li class="nav-item page-item">
+                                <a class="nav-link page-link" data-toggle="tab" href="#segunda" role="tab" aria-controls="segunda">2</a>
+                            </li>
+
+                            <li class="nav-item page-item">
+                                <a class="nav-link page-link" data-toggle="tab" href="#tercera" role="tab" aria-controls="tercera">3</a>
+                            </li>
+                            <li class="nav-item page-item disabled">
+
+                                <a class="page-link disabled" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+            <!--// nab tabs-->
+
+
+        </div>
+    </section>
+
+    <!-- // Productos -->
+
+
+
+
+    <!-- footer -->
+
+    <footer id="footer-container">
+        <div class="container">
+            <div class="row text-xs-center">
+
+                <div class="col-md-4">
+
+                    <form action="" id="suscribeForm" action="#" method="POST">
+                        <h4 class="text-uppercase">¿Quieres recibir todas las novedades</h4>
+                        <div class="form-group"><input type="text" class="form-control" id="email" name="email" placeholder="tu@correo.com...">
+                            <small class="form-text text-muted">No compartiremos tu informacion con nadie mas</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-text">Suscribirme</button>
+                    </form>
+                </div>
+                <div class="col-md-3 offset-md-5">
+                    <h4>Navegcion</h4>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../catalogo.html" class="nav-link">Catalogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <!-- // footer -->
+
+    <!--Modal-->
+
+    <div class="modal fade" id="modal0ferta">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Ofertas xclusivas para Ud.</h4>
+                </div>
+                <div class="modal-body">
+                    Registrate hoy y obten 25 soles de descuento en tu primera compra
+                    <form action="#" class="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="tu@correo.com....">
+
+                            <small class="form-text textmuted">No compariremos tu informacioncon nadie</small>
+                        </div>
+                        <button type="submit" class="btn btn-platzi form-text">Registrarme</button>
+                        <button id="btnNoRegistrar" class="btn btn-warning form-text" data-dismiss="modal">No quiero el descuento</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--//Modal-->
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
+    <script>
+        mostrarModal()
+
+    </script>
+
+    <!-- NAV TABS-->
+    <script>
+        $(function() {
+            $('#mypagina a:last').tab('show')
+        })
+
+    </script>
+
+    <!-- //NAV TABS-->
+
+</body>
+
+</html>
