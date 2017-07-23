@@ -182,3 +182,34 @@ small.form-text.text-muted {
 .tab-content {
     margin-top: 1em;
 }
+
+/*  ModalVenta*/
+
+img.cardVenta {
+   width: 75vh;
+    height: auto;
+   
+}
+
+img.cardVentaDos {
+   width: 25vh;
+    height: auto;
+   
+}
+
+
+.animacion {
+    background-image: url(file:///C:/Users/rlipac/Desktop/REPOSITORIOS_GIT/VillaShop/images/producto/morral/morral2.jpg);
+    z-index: 999;
+    position: absolute;
+    width: 371px;
+    height: 376px;
+    left: 0px;
+    top: 0px;
+    cursor: move;
+}
+
+
+
+
+/*  ModalVenta*/
